@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Tiago</h1>
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Olá! Sou um desenvolvedor apaixonado por tecnologia e inovação. Tenho experiência com <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong> e outras tecnologias. Bem-vindo ao meu portfólio!</p>
+    </section>
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <div class="projeto">
+            <h3>Projeto 1</h3>
+            <p>Descrição breve sobre o projeto 1.</p>
+            <a href="#" target="_blank">Ver mais</a>
+        </div>
+        <div class="projeto">
+            <h3>Projeto 2</h3>
+            <p>Descrição breve sobre o projeto 2.</p>
+            <a href="#" target="_blank">Ver mais</a>
+        </div>
+        <!-- Adicione mais projetos aqui -->
+    </section>
+    <section id="contato">
+        <h2>Contato</h2>
+        <form id="formContato">
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+            <input type="email" id="email" name="email" placeholder="Seu email" required>
+            <textarea id="mensagem" name="mensagem" placeholder="Sua mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="msgEnviada" style="display:none;">Mensagem enviada! Obrigado pelo contato.</div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Seu Nome. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

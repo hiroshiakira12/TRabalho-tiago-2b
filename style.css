@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background: #222;
+    color: #fff;
+    padding: 24px 0;
+    text-align: center;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    max-width: 800px;
+    margin: 32px auto;
+    padding: 24px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+h2 {
+    color: #222;
+}
+
+.projeto {
+    margin-bottom: 24px;
+}
+
+.projeto h3 {
+    margin-top: 0;
+}
+
+.projeto a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+.projeto a:hover {
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    margin-bottom: 16px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+form button {
+    background: #1e90ff;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #0e70c0;
+}
+
+footer {
+    text-align: center;
+    padding: 16px;
+    background: #222;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
